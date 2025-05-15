@@ -89,14 +89,14 @@ class _HomeScreenState extends State<HomeScreen> {
           const SizedBox(
             height: 5,
           ),
-          MovieCategory(
-              label: "serie",
-              moviList: dataProvider.animationMoviesList,
-              imageHeight: 160,
-              imageWidth: 110,
-              callback: () {
-                dataProvider.getAnimationMovies();
-              }),
+          // MovieCategory(
+          //     label: "serie",
+          //     moviList: dataProvider.animationMoviesList,
+          //     imageHeight: 160,
+          //     imageWidth: 110,
+          //     callback: () {
+          //       dataProvider.getAnimationMovies();
+          //     }),
         ],
       ),
     );
